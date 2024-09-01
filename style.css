@@ -1,0 +1,118 @@
+/*
+Theme Name:Harvestfield
+Theme URI:
+Description:Harvestfield Theme
+Author:Hiatt Zhao
+*/
+@charset "UTF-8";
+
+/* -------- Main -------- */
+
+body,td,th {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color:#333333;
+	text-align: justify;
+}
+
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	text-align: justify;
+	background-image: url(img/harvestfield.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+a:link {
+	color:            #993611;
+	text-decoration:  none;
+	border-bottom:    thin dotted #b76666;
+}
+
+a:visited {
+	color:            #675c47;
+	text-decoration:  none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #675c47;
+}
+	
+h1 {
+	color:#FFFFFF;
+}
+
+h2 {
+	color: #FF0900;
+}
+
+/* -------- Div IDs -------- */
+
+#corners {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#corners div {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper {
+	margin: 0px auto;
+	width: 900px;
+	margin-top: 50px;
+	padding-bottom: 10px;
+	background-image: url(img/transparent.png);
+	background-repeat: repeat;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+}
+
+#header {
+	width: 900px;
+	height: 150px;
+	margin: 0px;
+	text-align: center;
+}
+
+#main {
+	margin: 10px;
+	width: 880px;
+}
+
+#content {
+	background-color: #FFFFFF;
+	width: 850px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+	border: 1px solid #000000;
+}
+
+#navigation {
+	background-color: #CCC;
+	text-align: center;
+}
+
+#footer {
+	width: 900px;
+	margin: 10px auto 10px auto;
+	text-align: center;
+	font-size: 80%;
+}
+
+/* -------- Classes -------- */
+
+.footer  {
+	font-size: 12px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+
+
